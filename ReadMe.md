@@ -3,9 +3,10 @@
 Curso de Git e GitHub com Téo Calvo.
 
 ## Dia 01
-    Aprendemos sobre Git.
-        * Histórico de criação
-        * Para que serve o Git
+    ### Aprendemos sobre Git.
+        * Histórico de criação;
+        * Para que serve o Git;
+        * Ideal para arquivos de texto. Arquivos binários não são recomendados;
         * Iniciar os primeiros comandos no Git Bash
             Comando | Função
             pwd | Mostra o repositório que você está.
@@ -17,40 +18,40 @@ Curso de Git e GitHub com Téo Calvo.
             Você também pode clicar com o botão direito do mouse em cima da pasta e selecionar a opção "Open Git Bash here" que ele já vai iniciar um Bash para aquela pasta.
 
 
-### Iniciar versionamento com Git (repositório local)
+    ### Iniciar versionamento com Git (repositório local)
 
-    - git init . -> o ponto é para iniciar tudo o que está na pasta atual. Se o usar dois pontos consecutivos (..) é para subir a pasta anterior (hierarquicamente superior). Neste momento é criado uma pasta oculta chamada .git que irá gerenciar o git
+        * git init . -> o ponto é para iniciar tudo o que está na pasta atual. Se o usar dois pontos consecutivos (..) é para subir a pasta anterior (hierarquicamente superior). Neste momento é criado uma pasta oculta chamada .git que irá gerenciar o git
 
-    - git status -> mostra o status da branch atual
+        * git status -> mostra o status da branch atual
 
-    - git add -> adiciona o arquivo na fase de stage para ser commitado
+        * git add -> adiciona o arquivo na fase de stage para ser commitado
 
-    - git commit -m "mensagem a ser adicionada no commit"
+        * git commit -m "mensagem a ser adicionada no commit"
 
 
-    Caso tenha dado erro no commit, você deve indicar o nome e e-mail de quem está commitando
-    - git config --global user.name "Seu Nome"
-    - git config --global user.email "seu-email@example.com"
+        **Caso tenha dado erro no commit, você deve indicar o nome e e-mail de quem está commitando**
+        * git config --global user.name "Seu Nome"
+        * git config --global user.email "seu-email@example.com"
 
-    - git log -> mostra todo o histórico do git
-    - git reset -> Retorna para unstage. retira os arquivos que foram adicionados (stage) pelo git add e deixa unstaged. Desfaz o git add
-    - git reset idCommit -> retorna para o pós-commit
+        * git log -> mostra todo o histórico do git
+        * git reset -> Retorna para unstage. retira os arquivos que foram adicionados (stage) pelo git add e deixa unstaged. Desfaz o git add
+        * git reset idCommit -> retorna para o pós-commit
 
-    - git branch -> cria uma ramificação do projeto
-    - git checkout -b nome_da_nova_branch -> cria e mudar para a nova branch
-    - git checkout nome_da_branch -> mudar para outra branch
+        * git branch -> cria uma ramificação do projeto
+        * git checkout -b nome_da_nova_branch -> cria e mudar para a nova branch
+        * git checkout nome_da_branch -> mudar para outra branch
 
-    ---
+        ---
 
-    MERGE
+        MERGE
 
-    Para mesclar você precisa voltar para a branch main/master e depois passar o merge da branch alterada para que ela seja incorporada na main/master.
+        Para mesclar você precisa voltar para a branch main/master e depois passar o merge da branch alterada para que ela seja incorporada na main/master.
 
-    - git merge nome_da_branch
+        * git merge nome_da_branch
 
-    * Após o git log o terminal Git Bash ficou como sem a parte de escrever os códigos. Digitei Q e ele retornou.
+        * Após o git log o terminal Git Bash ficou como sem a parte de escrever os códigos. Digitei Q e ele retornou.
 
-    - git branch -D nome_da_branch -> deleta a branch selecionada
+        * git branch -D nome_da_branch -> deleta a branch selecionada
 
 
 ## Dia 02 
