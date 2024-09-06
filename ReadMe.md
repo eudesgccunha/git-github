@@ -89,5 +89,48 @@ O primeiro passo é criar um repositório no GitHub e em seguida copiar o códig
 :part_alternation_mark:
 :white_check_mark:
 
+### Fork
 
+Abre o repositório que quer criar um Fork e clica em fork. Após isso, em Code, seleciona o url HTTPS ou SSH (depende de como você está usando na sua máquina) e copia.
+
+No seu terminal Bash você escreve:
+- `cd ~`
+- `cd pasta-selecionad`a (ex.: cd Área\ de\ Trabalho/)
+
+Ou você pode clicar com o botão direito na pasta que deseja e seleciona "Open Git Bash here".
+
+- `git clone url-do-fork` -> clonar o repositório que você fez o fork
+- `cd nome-da-pasta-do-fork` -> entrar dentro da pasta do fork
+- `git checkout -b nome-da-nova-branch` -> cria uma branch para você com um nome que você queira
+- `git branch` -> para ver qual branch você está
+
+Quando você fizer alterações (no código ou criando outros arquivos para o repositório) faz o:
+```
+git add
+git commit -m "mensagem"
+git push origin nome-da-branch
+```
+
+No GitHub, se você quiser sugerir essas alterações para o repositório original (do proprietário) basta clicar em Compare and pull request. Se o proprietário achar legal, ele pode adicionar a sua sugestão em forma de branch ao repositório main dele. 
+Após isso você pode sincronizar o repositório original clicando em Sync e Update branch (no GitHub) e depois fazer um git pull no seu Bash.
+
+Você também pode fazer forks de vários projetos do GitHub que achar legal para salvar no seu repositório e de tempos em tempos sincronizar (Sync - Update branch).
+
+## Dia 03
+
+### Git Ignore
+
+Na pasta raiz criar, pelo vscode um arquivo escrito `.gitignore` (esse é o formato dele). Dentro desse arquivo você deve escrever o nome dos arquivos para serem ignorados e não sofrerem commit.
+
+Você tem a opção de passar o nome completo e extensão do arquivo ou selecionar todos os arquivos de uma extensão com um asterisco (ex.: *.csv, *.xlsx).
+
+No Windows, todos os arquivos que começam com . são arquivos ocultos (ex.: `.git`, `.gitignore`)
+
+
+### Git Keep
+
+Caso você queira manter um arquivo (desfazer o `.gitignore`) pode usar o `.gitkeep`. 
+Neste caso você cria um arquivo `.gitkeep` dentro da pasta que deseja manter. Então essa pasta vai entrar no commit, mas todos os arquivos com extensões contempladas no `.gitingore` serão ignorados.
+
+---
 EudesCunha
