@@ -1,6 +1,6 @@
 # Git e GitHub
 
-Curso de Git e GitHub com Téo Calvo.
+Anotações do curso de Git e GitHub com Téo Calvo.
 
 ## Dia 01
 ### Sobre Git
@@ -87,6 +87,7 @@ O primeiro passo é criar um repositório no GitHub e em seguida copiar o códig
 **Observações:**  Não é recomendado versionar arquivos `.ipynb`no github (a não ser que seja direto do Colab). O mais recomendado é versionar arquivos `.py`.
 
 :part_alternation_mark:
-:chart:
 :white_check_mark:
-:copyright:
+
+
+EudesCunha
