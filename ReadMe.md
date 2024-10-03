@@ -23,7 +23,7 @@ clear | Limpa a tela (volta ao início).
 
 ### Iniciar versionamento com Git (repositório local)
 
-* `git init` . -> o ponto é para iniciar tudo o que está na pasta atual. Se o usar dois pontos consecutivos (..) é para subir a pasta anterior (hierarquicamente superior). Neste momento é criado uma pasta oculta chamada .git que irá gerenciar o git
+* `git init .` -> o ponto é para iniciar tudo o que está na pasta atual. Se o usar dois pontos consecutivos (..) é para subir a pasta anterior (hierarquicamente superior). Neste momento é criado uma pasta oculta chamada .git que irá gerenciar o git
 * `git status` -> mostra o status da branch atual
 * `git add` -> adiciona o arquivo na fase de stage para ser commitado
 * `git commit -m "mensagem a ser adicionada no commit"` -> envia para o repositório local
