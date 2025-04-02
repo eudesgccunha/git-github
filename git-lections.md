@@ -1,4 +1,4 @@
-# Git
+# Git lections
 
 ## Comandos Bash
 
