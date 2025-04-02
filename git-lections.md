@@ -84,7 +84,7 @@ Ex.: git commit -m "fix: changes in login button"
 - Em seguida, git add <file>
 - git rebase --continue: Após isso, o git vai ajustar os commits de acordo com o ultimo commit da main ou develop.
 
-O arquivo [git-rebase.md]() traz uma ordem de comandos gits comuns ao rebase.
+O arquivo [git-rebase.md](https://github.com/eudesgccunha/git-github/blob/main/git-rebase.md) traz uma ordem de comandos gits comuns ao rebase.
 
 
 ## Referências
