@@ -42,9 +42,9 @@ O Git Flow define algumas convenções e recomendações para como usar diferent
 
 As principais branches do Git Flow são:
 
-1. master (ou main): Esta é a branch principal do projeto. Ela contém a versão estável do software, ou seja, a versão que foi lançada para produção.
-
-2. develop: A branch de desenvolvimento. É onde as funcionalidades novas são integradas e testadas antes de serem lançadas na versão estável. A partir dessa branch, novas funcionalidades são desenvolvidas.
+1. **main** (master): Esta é a branch principal do projeto. Ela contém a versão estável do software, ou seja, a versão que foi lançada para produção.
+2. **homolog**: Esta é uma branch de testes, na qual são os projetos são testados antes de seguirem para produção na branch main.
+3. **develop**: A branch de desenvolvimento. É onde as funcionalidades novas são integradas e testadas antes de serem lançadas na versão estável. A partir dessa branch, novas funcionalidades são desenvolvidas.
 
 Além dessas, o Git Flow também usa branches auxiliares, como:
 
